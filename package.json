@@ -1,0 +1,41 @@
+{
+  "name": "parcel-build-bug",
+  "version": "0.1.0",
+  "description": "Demonstrates a bug in parcel v2.",
+  "private": true,
+  "main": "dist/index.html",
+  "author": "Greg Venech",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/skipjack/parcel-build-bug",
+  "bugs": {
+    "url": "https://github.com/skipjack/parcel-build-bug/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:skipjack/parcel-build-bug.git"
+  },
+  "keywords": [
+    "parcel",
+    "bug"
+  ],
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "@angular/common": "^11.0.5",
+    "@angular/compiler": "^11.0.5",
+    "@angular/core": "^11.0.5",
+    "@angular/platform-browser": "^11.0.5",
+    "@angular/platform-browser-dynamic": "^11.0.5",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/node": "^14.14.16",
+    "parcel": "^2.0.0-beta.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rxjs": "^6.6.3",
+    "sass": "^1.30.0",
+    "zone.js": "^0.10.3"
+  }
+}
